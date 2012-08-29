@@ -1,0 +1,44 @@
+﻿Build started 21/8/2012 10:25:39 PM.
+     1>Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\dict.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\dict\dict.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\dict\dict.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\image /I..\viewer /I..\ccstruct /I..\vs2008\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\dict\\" /Fd"Release\dict\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dict\context.cpp ..\dict\dawg.cpp ..\dict\dict.cpp ..\dict\hyphen.cpp ..\dict\permdawg.cpp ..\dict\permngram.cpp ..\dict\permute.cpp ..\dict\states.cpp ..\dict\stopper.cpp ..\dict\trie.cpp /wd4244 /wd4018 /wd4305 /wd4800 /wd4996 
+         context.cpp
+         dawg.cpp
+         dict.cpp
+         hyphen.cpp
+         permdawg.cpp
+         permngram.cpp
+         permute.cpp
+         states.cpp
+         stopper.cpp
+         trie.cpp
+     1>..\dict\trie.cpp(43): warning C4566: character represented by universal-character-name '\u2000' cannot be represented in the current code page (1252)
+     1>..\dict\trie.cpp(44): warning C4566: character represented by universal-character-name '\u2001' cannot be represented in the current code page (1252)
+     1>..\dict\trie.cpp(45): warning C4566: character represented by universal-character-name '\u2002' cannot be represented in the current code page (1252)
+     1>..\dict\trie.cpp(46): warning C4566: character represented by universal-character-name '\u2003' cannot be represented in the current code page (1252)
+     1>..\dict\trie.cpp(47): warning C4566: character represented by universal-character-name '\u2004' cannot be represented in the current code page (1252)
+     1>..\dict\trie.cpp(48): warning C4566: character represented by universal-character-name '\u2005' cannot be represented in the current code page (1252)
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\dict.lib" /NOLOGO /LTCG Release\dict\context.obj
+         Release\dict\dawg.obj
+         Release\dict\dict.obj
+         Release\dict\hyphen.obj
+         Release\dict\permdawg.obj
+         Release\dict\permngram.obj
+         Release\dict\permute.obj
+         Release\dict\states.obj
+         Release\dict\stopper.obj
+         Release\dict\trie.obj
+         dict.vcxproj -> C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\dict.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\dict\dict.unsuccessfulbuild".
+         Touching "Release\dict\dict.lastbuildstate".
+     1>Done Building Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\dict.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:54.29

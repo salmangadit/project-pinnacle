@@ -1,0 +1,18 @@
+﻿Build started 22/8/2012 1:52:39 AM.
+     1>Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\unicharset_extractor.vcxproj" on node 7 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\unicharset_extractor\unicharset_extractor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\..\unicharset_extractor.exe) does not match the Linker's OutputFile property value (C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\bin\unicharset_extractor.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         All outputs are up-to-date.
+         unicharset_extractor.vcxproj -> C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\..\unicharset_extractor.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\unicharset_extractor\unicharset_extractor.unsuccessfulbuild".
+         Touching "Release\unicharset_extractor\unicharset_extractor.lastbuildstate".
+     1>Done Building Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\unicharset_extractor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.60

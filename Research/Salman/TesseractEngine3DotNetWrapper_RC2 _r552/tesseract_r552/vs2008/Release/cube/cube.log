@@ -1,0 +1,147 @@
+﻿Build started 21/8/2012 10:25:39 PM.
+     1>Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\cube.vcxproj" on node 5 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\cube\cube.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\cube\cube.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\ccstruct /I..\cutil /I..\dict /I..\ccmain /I..\classify /I..\textord /I..\wordrec /I..\neural_networks\runtime /I..\image /I..\viewer /I..\vs2008\include\leptonica /I..\vs2008\port /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D USE_STD_NAMESPACE /D __MSW32__ /D HAVE_LIBLEPT /D _CRT_SECURE_NO_WARNINGS /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\cube\\" /Fd"Release\cube\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\cube\altlist.cpp ..\cube\beam_search.cpp ..\cube\bmp_8.cpp ..\cube\cached_file.cpp ..\cube\char_altlist.cpp ..\cube\char_bigrams.cpp ..\cube\char_samp.cpp ..\cube\char_samp_enum.cpp ..\cube\char_samp_set.cpp ..\cube\char_set.cpp ..\cube\classifier_factory.cpp ..\cube\con_comp.cpp ..\cube\conv_net_classifier.cpp ..\cube\cube_line_object.cpp ..\cube\cube_line_segmenter.cpp ..\cube\cube_object.cpp ..\cube\cube_search_object.cpp ..\cube\cube_tuning_params.cpp ..\cube\cube_utils.cpp ..\cube\feature_bmp.cpp ..\cube\feature_chebyshev.cpp ..\cube\feature_hybrid.cpp ..\cube\hybrid_neural_net_classifier.cpp ..\cube\search_column.cpp ..\cube\search_node.cpp ..\cube\tess_lang_mod_edge.cpp ..\cube\tess_lang_model.cpp ..\cube\word_altlist.cpp ..\cube\word_list_lang_model.cpp ..\cube\word_size_model.cpp ..\cube\word_unigrams.cpp /wd4244 /wd4018 /wd4305 /wd4800 /wd4996 
+         altlist.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         beam_search.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+         bmp_8.cpp
+         cached_file.cpp
+         char_altlist.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         char_bigrams.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         char_samp.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         char_samp_enum.cpp
+         char_samp_set.cpp
+         char_set.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         classifier_factory.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         con_comp.cpp
+         conv_net_classifier.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         cube_line_object.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         cube_line_segmenter.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         cube_object.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         cube_search_object.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         cube_tuning_params.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         cube_utils.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         feature_bmp.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         Generating Code...
+         Compiling...
+         feature_chebyshev.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         feature_hybrid.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         hybrid_neural_net_classifier.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         search_column.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         search_node.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         tess_lang_mod_edge.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         tess_lang_model.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52): warning C4099: 'TPOINT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164): warning C4099: 'TBLOB' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34) : see declaration of 'TBLOB'
+         word_altlist.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         word_list_lang_model.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         word_size_model.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         word_unigrams.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\cube.lib" /NOLOGO /LTCG Release\cube\altlist.obj
+         Release\cube\beam_search.obj
+         Release\cube\bmp_8.obj
+         Release\cube\cached_file.obj
+         Release\cube\char_altlist.obj
+         Release\cube\char_bigrams.obj
+         Release\cube\char_samp.obj
+         Release\cube\char_samp_enum.obj
+         Release\cube\char_samp_set.obj
+         Release\cube\char_set.obj
+         Release\cube\classifier_factory.obj
+         Release\cube\con_comp.obj
+         Release\cube\conv_net_classifier.obj
+         Release\cube\cube_line_object.obj
+         Release\cube\cube_line_segmenter.obj
+         Release\cube\cube_object.obj
+         Release\cube\cube_search_object.obj
+         Release\cube\cube_tuning_params.obj
+         Release\cube\cube_utils.obj
+         Release\cube\feature_bmp.obj
+         Release\cube\feature_chebyshev.obj
+         Release\cube\feature_hybrid.obj
+         Release\cube\hybrid_neural_net_classifier.obj
+         Release\cube\search_column.obj
+         Release\cube\search_node.obj
+         Release\cube\tess_lang_mod_edge.obj
+         Release\cube\tess_lang_model.obj
+         Release\cube\word_altlist.obj
+         Release\cube\word_list_lang_model.obj
+         Release\cube\word_size_model.obj
+         Release\cube\word_unigrams.obj
+         cube.vcxproj -> C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\cube.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\cube\cube.unsuccessfulbuild".
+         Touching "Release\cube\cube.lastbuildstate".
+     1>Done Building Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\cube.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:32.58

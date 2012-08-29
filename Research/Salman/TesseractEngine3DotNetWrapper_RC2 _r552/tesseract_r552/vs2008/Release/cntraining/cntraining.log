@@ -1,0 +1,40 @@
+﻿Build started 21/8/2012 10:27:14 PM.
+     1>Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\cntraining.vcxproj" on node 5 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\cntraining\cntraining.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\cntraining\cntraining.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ccutil /I../ccstruct /I../classify /I../cutil /I../training /I../viewer /I../dict /I..\vs2008\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /GL /D TRAINING /D WIN32 /D _WINDOWS /D __NT__ /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\cntraining\\" /Fd"Release\cntraining\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\training\cntraining.cpp ..\training\commontraining.cpp /wd4244 /wd4018 /wd4305 /wd4800 /wd4996 
+         cntraining.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+         commontraining.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\..\cntraining.exe) does not match the Linker's OutputFile property value (C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\bin\cntraining.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\cntraining.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\vs2008\lib ws2_32.lib user32.lib "zlib-static-mtdll.lib" "libpng-static-mtdll.lib" "libjpeg-static-mtdll.lib" "libtiff-static-mtdll.lib" "giflib-static-mtdll.lib" "liblept-static-mtdll.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\cntraining\cntraining.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\cntraining.pdb" /SUBSYSTEM:CONSOLE /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\cntraining.lib" /MACHINE:X86 Release\cntraining\cntraining.obj
+         Release\cntraining\commontraining.obj
+         "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\ccstruct.lib"
+         "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\ccutil.lib"
+         "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\classify.lib"
+         "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\cutil.lib"
+         "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\dict.lib"
+         "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\image.lib"
+         "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\libtesseract_tessopt.lib"
+         "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\libtesseract_training.lib"
+         "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\viewer.lib" /NODEFAULTLIB:library 
+         Generating code
+         Finished generating code
+         cntraining.vcxproj -> C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\..\cntraining.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\bin\cntraining.exe;#1" /manifest Release\cntraining\cntraining.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\cntraining\cntraining.unsuccessfulbuild".
+         Touching "Release\cntraining\cntraining.lastbuildstate".
+     1>Done Building Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\cntraining.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:49.14

@@ -1,0 +1,29 @@
+﻿Build started 21/8/2012 10:25:39 PM.
+     1>Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\viewer.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\viewer\viewer.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\viewer\viewer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\vs2008\include /I..\vs2008\include\leptonica /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D NDEBUG /D _LIB /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D HAVE_LIBLEPT /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\viewer\\" /Fd"Release\viewer\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\viewer\scrollview.cpp ..\viewer\svmnode.cpp ..\viewer\svpaint.cpp ..\viewer\svutil.cpp /wd4244 /wd4018 /wd4305 /wd4800 /wd4996 
+         scrollview.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\viewer\svutil.h(29) : see previous definition of 'snprintf'
+         svmnode.cpp
+         svpaint.cpp
+         svutil.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\viewer.lib" /NOLOGO /LTCG Release\viewer\scrollview.obj
+         Release\viewer\svmnode.obj
+         Release\viewer\svpaint.obj
+         Release\viewer\svutil.obj
+         viewer.vcxproj -> C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\viewer.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\viewer\viewer.unsuccessfulbuild".
+         Touching "Release\viewer\viewer.lastbuildstate".
+     1>Done Building Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\viewer.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.79

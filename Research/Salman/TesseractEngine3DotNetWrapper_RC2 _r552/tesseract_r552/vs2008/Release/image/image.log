@@ -1,0 +1,36 @@
+﻿Build started 21/8/2012 10:26:04 PM.
+     1>Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\image.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\image\image.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\image\image.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\viewer /I..\vs2008\include /I..\vs2008\include\leptonica /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D HAVE_LIBLEPT /D LEPTONLIB_IMPORTS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\image\\" /Fd"Release\image\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\image\bitstrm.cpp ..\image\image.cpp ..\image\imgbmp.cpp ..\image\imgio.cpp ..\image\imgs.cpp ..\image\imgtiff.cpp ..\image\svshowim.cpp /wd4244 /wd4018 /wd4305 /wd4800 /wd4996 
+         bitstrm.cpp
+         image.cpp
+         imgbmp.cpp
+         imgio.cpp
+         imgs.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         imgtiff.cpp
+         svshowim.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\image.lib" /NOLOGO /LTCG Release\image\bitstrm.obj
+         Release\image\image.obj
+         Release\image\imgbmp.obj
+         Release\image\imgio.obj
+         Release\image\imgs.obj
+         Release\image\imgtiff.obj
+         Release\image\svshowim.obj
+         image.vcxproj -> C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\image.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\image\image.unsuccessfulbuild".
+         Touching "Release\image\image.lastbuildstate".
+     1>Done Building Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\image.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.90

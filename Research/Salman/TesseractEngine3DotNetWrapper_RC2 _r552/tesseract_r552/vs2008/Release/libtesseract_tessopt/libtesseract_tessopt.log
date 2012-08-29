@@ -1,0 +1,20 @@
+﻿Build started 21/8/2012 10:26:37 PM.
+     1>Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\libtesseract_tessopt.vcxproj" on node 7 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libtesseract_tessopt\libtesseract_tessopt.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libtesseract_tessopt\libtesseract_tessopt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ccutil /I../ccstruct /I../classify /I../cutil /I../training /I../viewer /I../dict /I../image /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D HAVE_LIBLEPT /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\libtesseract_tessopt\\" /Fd"Release\libtesseract_tessopt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\training\tessopt.cpp
+         tessopt.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\libtesseract_tessopt.lib" /NOLOGO /LTCG Release\libtesseract_tessopt\tessopt.obj
+         libtesseract_tessopt.vcxproj -> C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\libtesseract_tessopt.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libtesseract_tessopt\libtesseract_tessopt.unsuccessfulbuild".
+         Touching "Release\libtesseract_tessopt\libtesseract_tessopt.lastbuildstate".
+     1>Done Building Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\libtesseract_tessopt.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.50

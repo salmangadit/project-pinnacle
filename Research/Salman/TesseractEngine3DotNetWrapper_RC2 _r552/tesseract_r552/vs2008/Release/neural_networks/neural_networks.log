@@ -1,0 +1,27 @@
+﻿Build started 21/8/2012 10:25:39 PM.
+     1>Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\neural_networks.vcxproj" on node 6 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\neural_networks\neural_networks.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\neural_networks\neural_networks.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oi /Oy- /D USE_STD_NAMESPACE /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\neural_networks\\" /Fd"Release\neural_networks\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\neural_networks\runtime\input_file_buffer.cpp ..\neural_networks\runtime\neural_net.cpp ..\neural_networks\runtime\neuron.cpp ..\neural_networks\runtime\sigmoid_table.cpp /wd4244 /wd4018 /wd4305 /wd4800 /wd4996 
+         input_file_buffer.cpp
+         neural_net.cpp
+         neuron.cpp
+         sigmoid_table.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\neural_networks.lib" /NOLOGO /LTCG Release\neural_networks\input_file_buffer.obj
+         Release\neural_networks\neural_net.obj
+         Release\neural_networks\neuron.obj
+         Release\neural_networks\sigmoid_table.obj
+         neural_networks.vcxproj -> C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\neural_networks.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\neural_networks\neural_networks.unsuccessfulbuild".
+         Touching "Release\neural_networks\neural_networks.lastbuildstate".
+     1>Done Building Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\neural_networks.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.85

@@ -1,0 +1,417 @@
+﻿Build started 21/8/2012 10:25:39 PM.
+     1>Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\ccmain.vcxproj" on node 8 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\ccmain\ccmain.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\ccmain\ccmain.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /I..\vs2008\include /I..\vs2008\include\leptonica /I..\neural_networks\runtime /I..\cube /I..\vs2008\port /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D USE_STD_NAMESPACE /D WIN32 /D NDEBUG /D _LIB /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D HAVE_LIBLEPT /D _BUILDASDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\ccmain\\" /Fd"Release\ccmain\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\ccmain\adaptions.cpp ..\ccmain\applybox.cpp ..\ccmain\charcut.cpp ..\ccmain\control.cpp ..\ccmain\cube_control.cpp ..\ccmain\cube_reco_context.cpp ..\ccmain\docqual.cpp ..\ccmain\fixspace.cpp ..\ccmain\fixxht.cpp port\gettimeofday.cpp ..\ccmain\imgscale.cpp ..\ccmain\osdetect.cpp ..\ccmain\output.cpp ..\ccmain\pagesegmain.cpp ..\ccmain\pagewalk.cpp ..\ccmain\paramsd.cpp ..\ccmain\pgedit.cpp ..\ccmain\recogtraining.cpp ..\ccmain\reject.cpp ..\ccmain\scaleimg.cpp ..\ccmain\tessbox.cpp ..\ccmain\tessedit.cpp ..\ccmain\tesseract_cube_combiner.cpp ..\ccmain\tesseractclass.cpp ..\ccmain\tessvars.cpp ..\ccmain\tfacepp.cpp ..\ccmain\thresholder.cpp ..\ccmain\tstruct.cpp ..\ccmain\werdit.cpp /wd4244 /wd4018 /wd4305 /wd4800 /wd4996 
+         adaptions.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52): warning C4099: 'TPOINT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164): warning C4099: 'TBLOB' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34) : see declaration of 'TBLOB'
+         applybox.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52): warning C4099: 'TPOINT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164): warning C4099: 'TBLOB' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34) : see declaration of 'TBLOB'
+         charcut.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52): warning C4099: 'TPOINT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164): warning C4099: 'TBLOB' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34) : see declaration of 'TBLOB'
+         control.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         cube_control.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52): warning C4099: 'TPOINT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164): warning C4099: 'TBLOB' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34) : see declaration of 'TBLOB'
+         cube_reco_context.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52): warning C4099: 'TPOINT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164): warning C4099: 'TBLOB' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34) : see declaration of 'TBLOB'
+         docqual.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52): warning C4099: 'TPOINT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164): warning C4099: 'TBLOB' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         fixspace.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         fixxht.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+         gettimeofday.cpp
+         imgscale.cpp
+         osdetect.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52): warning C4099: 'TPOINT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164): warning C4099: 'TBLOB' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34) : see declaration of 'TBLOB'
+         output.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         pagesegmain.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+         pagewalk.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         paramsd.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+         pgedit.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52): warning C4099: 'TPOINT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164): warning C4099: 'TBLOB' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34) : see declaration of 'TBLOB'
+         recogtraining.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+         reject.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         scaleimg.cpp
+         Compiling...
+         tessbox.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         tessedit.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         tesseract_cube_combiner.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         tesseractclass.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+     1>..\ccmain\tesseractclass.cpp(41): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(44): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(46): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(48): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(51): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(58): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(64): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(66): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(68): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(70): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(72): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(75): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(77): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(78): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(80): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(84): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(88): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(91): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(93): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(95): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(97): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(99): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(101): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(103): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(105): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(107): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(109): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(111): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(112): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(114): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(116): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(118): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(120): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(122): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(124): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(126): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(128): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(130): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(132): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(134): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(136): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(138): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(140): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(142): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(145): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(146): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(147): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(148): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(149): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(151): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(153): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(155): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(157): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(159): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(161): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(163): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(165): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(168): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(171): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(174): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(176): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(178): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(180): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(182): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(185): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(187): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(189): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(191): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(193): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(195): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(197): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(199): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(201): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(203): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(204): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(206): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(208): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(210): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(212): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(214): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(216): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(218): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(220): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(222): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(224): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(226): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(228): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(230): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(232): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(234): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(236): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(238): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(240): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(242): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(245): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(248): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(250): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(251): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(253): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(255): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(257): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(259): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(261): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(263): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(266): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(268): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(270): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(272): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(274): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(276): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(278): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(279): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(281): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(283): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(285): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(287): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(289): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(291): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(293): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(295): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(297): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(299): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(300): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(302): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(304): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(306): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(308): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(310): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(312): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(314): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(316): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(318): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(320): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(322): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(324): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(326): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(328): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(330): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(332): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(334): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(336): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(338): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(340): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(342): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(343): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(344): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(346): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(348): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(350): warning C4355: 'this' : used in base member initializer list
+     1>..\ccmain\tesseractclass.cpp(355): warning C4355: 'this' : used in base member initializer list
+         tessvars.cpp
+         tfacepp.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52): warning C4099: 'TPOINT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164): warning C4099: 'TBLOB' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         thresholder.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         tstruct.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+         werdit.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\ccmain.lib" /NOLOGO /LTCG Release\ccmain\adaptions.obj
+         Release\ccmain\applybox.obj
+         Release\ccmain\charcut.obj
+         Release\ccmain\control.obj
+         Release\ccmain\cube_control.obj
+         Release\ccmain\cube_reco_context.obj
+         Release\ccmain\docqual.obj
+         Release\ccmain\fixspace.obj
+         Release\ccmain\fixxht.obj
+         Release\ccmain\gettimeofday.obj
+         Release\ccmain\imgscale.obj
+         Release\ccmain\osdetect.obj
+         Release\ccmain\output.obj
+         Release\ccmain\pagesegmain.obj
+         Release\ccmain\pagewalk.obj
+         Release\ccmain\paramsd.obj
+         Release\ccmain\pgedit.obj
+         Release\ccmain\recogtraining.obj
+         Release\ccmain\reject.obj
+         Release\ccmain\scaleimg.obj
+         Release\ccmain\tessbox.obj
+         Release\ccmain\tessedit.obj
+         Release\ccmain\tesseract_cube_combiner.obj
+         Release\ccmain\tesseractclass.obj
+         Release\ccmain\tessvars.obj
+         Release\ccmain\tfacepp.obj
+         Release\ccmain\thresholder.obj
+         Release\ccmain\tstruct.obj
+         Release\ccmain\werdit.obj
+         ccmain.vcxproj -> C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\ccmain.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\ccmain\ccmain.unsuccessfulbuild".
+         Touching "Release\ccmain\ccmain.lastbuildstate".
+     1>Done Building Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\ccmain.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:15.79

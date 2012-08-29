@@ -1,0 +1,147 @@
+﻿Build started 21/8/2012 10:26:12 PM.
+     1>Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\ccstruct.vcxproj" on node 5 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\ccstruct\ccstruct.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\ccstruct\ccstruct.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\vs2008\include\leptonica /I..\vs2008\port /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"mfcpch.h" /Fp"Release\ccstruct\ccstruct.pch" /Fo"Release\ccstruct\\" /Fd"Release\ccstruct\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\ccutil\mfcpch.cpp /wd4244 /wd4018 /wd4305 /wd4800 /wd4996 
+         mfcpch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\vs2008\include\leptonica /I..\vs2008\port /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"mfcpch.h" /Fp"Release\ccstruct\ccstruct.pch" /Fo"Release\ccstruct\\" /Fd"Release\ccstruct\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\ccstruct\blobbox.cpp ..\ccstruct\blobs.cpp ..\ccstruct\blread.cpp ..\ccstruct\callcpp.cpp ..\ccstruct\coutln.cpp ..\ccstruct\genblob.cpp ..\ccstruct\linlsq.cpp ..\ccstruct\mod128.cpp ..\ccstruct\normalis.cpp ..\ccstruct\ocrblock.cpp ..\ccstruct\ocrrow.cpp ..\ccstruct\pageres.cpp ..\ccstruct\pdblock.cpp ..\ccstruct\points.cpp ..\ccstruct\polyaprx.cpp ..\ccstruct\polyblk.cpp ..\ccstruct\polyblob.cpp ..\ccstruct\polyvert.cpp ..\ccstruct\poutline.cpp ..\ccstruct\quadlsq.cpp ..\ccstruct\quadratc.cpp ..\ccstruct\quspline.cpp ..\ccstruct\ratngs.cpp ..\ccstruct\rect.cpp ..\ccstruct\rejctmap.cpp ..\ccstruct\statistc.cpp ..\ccstruct\stepblob.cpp ..\ccstruct\vecfuncs.cpp ..\ccstruct\werd.cpp /wd4244 /wd4018 /wd4305 /wd4800 /wd4996 
+         blobbox.cpp
+         blobs.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+         blread.cpp
+         callcpp.cpp
+         coutln.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         genblob.cpp
+         linlsq.cpp
+         mod128.cpp
+         normalis.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52): warning C4099: 'TPOINT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164): warning C4099: 'TBLOB' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34) : see declaration of 'TBLOB'
+         ocrblock.cpp
+         ocrrow.cpp
+         pageres.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+         pdblock.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         points.cpp
+         polyaprx.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+         polyblk.cpp
+         polyblob.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52): warning C4099: 'TPOINT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36) : see declaration of 'TPOINT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164): warning C4099: 'TBLOB' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34) : see declaration of 'TBLOB'
+         polyvert.cpp
+         poutline.cpp
+         quadlsq.cpp
+         Compiling...
+         quadratc.cpp
+         quspline.cpp
+         ratngs.cpp
+         rect.cpp
+         rejctmap.cpp
+         statistc.cpp
+         stepblob.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\vs2008\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccutil\platform.h(5) : see previous definition of 'snprintf'
+         vecfuncs.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31): warning C4099: 'EDGEPT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67) : see declaration of 'EDGEPT'
+         werd.cpp
+     1>..\ccstruct\werd.cpp(607): warning C4804: '>' : unsafe use of type 'bool' in operation
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\vs2008\include\leptonica /I..\vs2008\port /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\ccstruct\\" /Fd"Release\ccstruct\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\ccstruct\boxword.cpp ..\ccstruct\ccstruct.cpp ..\ccstruct\detlinefit.cpp ..\ccstruct\dppoint.cpp ..\ccstruct\matrix.cpp ..\ccstruct\otsuthr.cpp ..\ccstruct\publictypes.cpp ..\ccstruct\seam.cpp ..\ccstruct\split.cpp /wd4244 /wd4018 /wd4305 /wd4800 /wd4996 
+         boxword.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(34): warning C4099: 'TBLOB' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(164) : see declaration of 'TBLOB'
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\normalis.h(36): warning C4099: 'TPOINT' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(52) : see declaration of 'TPOINT'
+         ccstruct.cpp
+     1>..\ccstruct\ccstruct.cpp(32): warning C4355: 'this' : used in base member initializer list
+         detlinefit.cpp
+         dppoint.cpp
+         matrix.cpp
+         otsuthr.cpp
+         publictypes.cpp
+         seam.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+         split.cpp
+     1>c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\blobs.h(67): warning C4099: 'EDGEPT' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\salman\nus\ee4001\research\tesseractengine3dotnetwrapper_rc2 _r552\tesseract_r552\ccstruct\vecfuncs.h(31) : see declaration of 'EDGEPT'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\ccstruct.lib" /NOLOGO /LTCG Release\ccstruct\blobbox.obj
+         Release\ccstruct\blobs.obj
+         Release\ccstruct\blread.obj
+         Release\ccstruct\boxword.obj
+         Release\ccstruct\callcpp.obj
+         Release\ccstruct\ccstruct.obj
+         Release\ccstruct\coutln.obj
+         Release\ccstruct\detlinefit.obj
+         Release\ccstruct\dppoint.obj
+         Release\ccstruct\genblob.obj
+         Release\ccstruct\linlsq.obj
+         Release\ccstruct\matrix.obj
+         Release\ccstruct\mfcpch.obj
+         Release\ccstruct\mod128.obj
+         Release\ccstruct\normalis.obj
+         Release\ccstruct\ocrblock.obj
+         Release\ccstruct\ocrrow.obj
+         Release\ccstruct\otsuthr.obj
+         Release\ccstruct\pageres.obj
+         Release\ccstruct\pdblock.obj
+         Release\ccstruct\points.obj
+         Release\ccstruct\polyaprx.obj
+         Release\ccstruct\polyblk.obj
+         Release\ccstruct\polyblob.obj
+         Release\ccstruct\polyvert.obj
+         Release\ccstruct\poutline.obj
+         Release\ccstruct\publictypes.obj
+         Release\ccstruct\quadlsq.obj
+         Release\ccstruct\quadratc.obj
+         Release\ccstruct\quspline.obj
+         Release\ccstruct\ratngs.obj
+         Release\ccstruct\rect.obj
+         Release\ccstruct\rejctmap.obj
+         Release\ccstruct\seam.obj
+         Release\ccstruct\split.obj
+         Release\ccstruct\statistc.obj
+         Release\ccstruct\stepblob.obj
+         Release\ccstruct\vecfuncs.obj
+         Release\ccstruct\werd.obj
+         ccstruct.vcxproj -> C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\Release\ccstruct.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\ccstruct\ccstruct.unsuccessfulbuild".
+         Touching "Release\ccstruct\ccstruct.lastbuildstate".
+     1>Done Building Project "C:\Users\Salman\NUS\EE4001\Research\TesseractEngine3DotNetWrapper_RC2 _r552\tesseract_r552\vs2008\ccstruct.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:50.90
