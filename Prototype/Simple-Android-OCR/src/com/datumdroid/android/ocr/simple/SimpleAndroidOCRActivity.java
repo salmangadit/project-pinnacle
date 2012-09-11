@@ -27,7 +27,7 @@ import android.widget.EditText;
 import com.googlecode.tesseract.android.TessBaseAPI;
 
 public class SimpleAndroidOCRActivity extends Activity {
-	public static final String PACKAGE_NAME = "com.datumdroid.android.ocr.simple";
+	public static final String PACKAGE = "com.datumdroid.android.ocr.simple";
 	public static final String DATA_PATH = Environment
 			.getExternalStorageDirectory().toString() + "/SimpleAndroidOCR/";
 	
@@ -42,6 +42,7 @@ public class SimpleAndroidOCRActivity extends Activity {
 	// protected ImageView _image;
 	protected EditText _field;
 	protected String _path;
+	
 	protected boolean _taken;
 
 	protected static final String PHOTO_TAKEN = "photo_taken";
