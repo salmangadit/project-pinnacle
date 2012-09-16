@@ -1,6 +1,7 @@
 package com.example.scope;
 
 import java.io.File;
+import com.googlecode.tesseract.android.*;
 import java.io.IOException;
 
 import com.example.scope.MainActivity;
@@ -27,7 +28,7 @@ public class ScanFragment extends Fragment {
 	protected Button _button;
 	protected static String _path;
 	protected boolean _taken;
-
+	public static final String lang = "eng";
 	public static final String DATA_PATH = Environment
 			.getExternalStorageDirectory().toString() + "/Scope/";
 	private static final String TAG = "Scope.java";
@@ -154,5 +155,30 @@ public class ScanFragment extends Fragment {
 
 		Toast toast = Toast.makeText(context, text, duration);
 		toast.show();
+		
+		
+
+		TessBaseAPI baseApi = new TessBaseAPI();
+		
+		baseApi.setDebug(true);
+		baseApi.init(DATA_PATH, lang);
+		Log.v(TAG, "Before baseApi");
+		baseApi.setImage(bitmap);
+		Log.v(TAG, "Before baseApi2");
+		String recognizedText = baseApi.getUTF8Text();
+		Log.v(TAG, "Before baseApi3");
+		baseApi.end();
+
+		// You now have the text in recognizedText var, you can do anything with it.
+		// We will display a stripped out trimmed alpha-numeric version of it (if lang is eng)
+		// so that garbage doesn't make it to the display.
+
+		Log.v(TAG, "OCRED TEXT: " + recognizedText);
+
+		if ( lang.equalsIgnoreCase("eng") ) {
+			recognizedText = recognizedText.replaceAll("[^a-zA-Z0-9]+", " ");
+		}
+		
+		recognizedText = recognizedText.trim();
 	}
 }
