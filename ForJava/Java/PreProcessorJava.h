@@ -1,0 +1,20 @@
+#include <jni.h>
+/* Header for class PreProcessor */
+
+#ifndef _Included_Test1
+#define _Included_Test1
+#ifdef __cplusplus
+extern "C" {
+#endif
+/*
+ * Class:     Test1
+ * Method:    PreProcess
+ * Signature: (Ljava/lang/String;Ljava/lang/String;II)V
+ */
+JNIEXPORT void JNICALL Java_Test1_PreProcess
+  (JNIEnv *, jobject, jstring, jstring, jint, jint);
+
+#ifdef __cplusplus
+}
+#endif
+#endif

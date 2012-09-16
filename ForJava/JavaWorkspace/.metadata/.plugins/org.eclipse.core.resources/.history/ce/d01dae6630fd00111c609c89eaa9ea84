@@ -1,0 +1,17 @@
+class Test1 {
+	
+	static {
+		System.loadLibrary("ClassLibrary1");
+	}
+
+	//public native void PreProcess(String s1,int b,int c,String s2);
+	public native void displayMessage();
+
+	public static void main(String[] args) 
+	{
+		Test1 H = new Test1();
+		//H.PreProcess(input,40,180,output);	
+		H.displayMessage();
+	}
+
+}

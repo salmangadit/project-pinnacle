@@ -2733,6 +2733,93 @@ public class BrightnessCorrection : BaseInPlacePartialFilter
     }
 }
 
+public class ContrastCorrection : BaseInPlacePartialFilter
+{
+    private LevelsLinear baseFilter = new LevelsLinear();
+    private int factor;
+
+    /// <summary>
+    /// Contrast adjusting factor, [-127, 127].
+    /// </summary>
+    /// 
+    /// <remarks><para>Factor which is used to adjust contrast. Factor values greater than
+    /// 0 increase contrast making light areas lighter and dark areas darker. Factor values
+    /// less than 0 decrease contrast - decreasing variety of contrast.</para>
+    /// 
+    /// <para>Default value is set to <b>10</b>.</para></remarks>
+    /// 
+    public int Factor
+    {
+        get { return factor; }
+        set
+        {
+            factor = Math.Max(-127, Math.Min(127, value));
+
+
+            if (factor > 1)
+            {
+                baseFilter.InRed = baseFilter.InGreen = baseFilter.InBlue = baseFilter.InGray =
+                    new IntRange(factor, 255 - factor);
+
+                baseFilter.OutRed = baseFilter.OutGreen = baseFilter.OutBlue = baseFilter.OutGray =
+                    new IntRange(0, 255);
+            }
+            else
+            {
+                baseFilter.OutRed = baseFilter.OutGreen = baseFilter.OutBlue = baseFilter.OutGray =
+                    new IntRange(-factor, 255 + factor);
+
+                baseFilter.InRed = baseFilter.InGreen = baseFilter.InBlue = baseFilter.InGray =
+                    new IntRange(0, 255);
+            }
+        }
+    }
+
+    /// <summary>
+    /// Format translations dictionary.
+    /// </summary>
+    /// 
+    /// <remarks><para>See <see cref="IFilterInformation.FormatTranslations"/>
+    /// documentation for additional information.</para></remarks>
+    ///
+    public override Dictionary<PixelFormat, PixelFormat> FormatTranslations
+    {
+        get { return baseFilter.FormatTranslations; }
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ContrastCorrection"/> class.
+    /// </summary>
+    /// 
+    public ContrastCorrection()
+    {
+        Factor = 10;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ContrastCorrection"/> class.
+    /// </summary>
+    /// 
+    /// <param name="factor">Contrast <see cref="Factor">adjusting factor</see>.</param>
+    /// 
+    public ContrastCorrection(int factor)
+    {
+        Factor = factor;
+    }
+
+    /// <summary>
+    /// Process the filter on the specified image.
+    /// </summary>
+    /// 
+    /// <param name="image">Source image data.</param>
+    /// <param name="rect">Image rectangle for processing by the filter.</param>
+    ///
+    protected override unsafe void ProcessFilter(UnmanagedImage image, Rectangle rect)
+    {
+        baseFilter.ApplyInPlace(image, rect);
+    }
+}
+
 public static class Image
 {
     /// <summary>
@@ -4278,6 +4365,35 @@ public class Class1
 {
     public void displayMessage()
     {
-        MessageBox.Show("Hello From AForge!", "Sample");
+        string filename = @"Testing\card2.tif";
+        string inputpath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + Path.DirectorySeparatorChar + filename;
+        string outputpath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + Path.DirectorySeparatorChar + @"Testing\newfile1.tif";
+        System.Drawing.Image image1 = System.Drawing.Image.FromFile(inputpath);
+        Bitmap image = (Bitmap)image1;
+
+        BrightnessCorrection bfilter = new BrightnessCorrection(40);
+        bfilter.ApplyInPlace(image);
+
+        ContrastCorrection cfilter = new ContrastCorrection(180);
+        cfilter.ApplyInPlace(image);
+
+        image.Save(outputpath);
+    }
+}
+
+public class PreProcessor
+{
+    public void PreProcess(string filepath, string outputpath, int brightness, int contrast)
+    {
+        System.Drawing.Image image1 = System.Drawing.Image.FromFile(filepath);
+        Bitmap image = (Bitmap)image1;
+
+        BrightnessCorrection bfilter = new BrightnessCorrection(brightness);
+        bfilter.ApplyInPlace(image);
+
+        ContrastCorrection cfilter = new ContrastCorrection(contrast);
+        cfilter.ApplyInPlace(image);
+
+        image.Save(outputpath);
     }
 }
