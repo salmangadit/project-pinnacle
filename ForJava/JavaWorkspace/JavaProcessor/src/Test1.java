@@ -9,8 +9,8 @@ public class Test1 {
 
 	public static void main(String[] args) 
 	{
-		Test1 H = new Test1();	
-		H.PreProcess("C:\\Users\\VARUN\\Desktop\\Testing\\card2.tif", "C:\\Users\\VARUN\\Desktop\\Testing\\ProcessedImage.tif", 40, 180);
+		//Test1 H = new Test1();	
+		//H.PreProcess("C:\\Users\\VARUN\\Desktop\\Testing\\card2.tif", "C:\\Users\\VARUN\\Desktop\\Testing\\ProcessedImage.tif", 40, 180);
 	}
 
 }

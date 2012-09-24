@@ -3,6 +3,7 @@
 	<name>Scope</name>
 	<comment></comment>
 	<projects>
+		<project>HelloWorld</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
